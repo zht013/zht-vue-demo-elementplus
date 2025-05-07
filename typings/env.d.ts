@@ -13,7 +13,7 @@ interface ImportMetaEnv {
   readonly VITE_USER_THEME_KEY: string
   readonly VITE_USER_TOKEN_KEY: string
   readonly VITE_REFRESH_TOKEN_KEY: string
-  readonly VITE_GITHUB_API_TOKEN_KEY: string
+  readonly VITE_GITHUB_API_KEY: string
   readonly VITE_GITEE_API_SERVER: string
   // 更多环境变量...
 }
