@@ -92,7 +92,7 @@ class Authorize {
 
   /** github api token */
   get githubApiToken(): string {
-    return appStorage.local.getItem(import.meta.env.VITE_GITHUB_API_TOKEN_KEY) || ''
+    return appStorage.local.getItem(import.meta.env.VITE_GITHUB_API_KEY) || ''
   }
 
   /**
